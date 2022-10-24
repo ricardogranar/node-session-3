@@ -1,3 +1,4 @@
+//Poco entiendo de todo esto
 const express = require("express");
 
 const db = require("./utils/database/db");
