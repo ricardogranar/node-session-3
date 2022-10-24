@@ -20,3 +20,4 @@ server.use("/characters", characterRoutes);
 server.listen(PORT, () => {
     console.log(`Servidor a todo gas en http://localhost:${PORT}`);
 });
+
