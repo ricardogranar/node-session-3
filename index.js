@@ -3,11 +3,11 @@ const express = require("express");
 
 const db = require("./utils/database/db");
 
-const indexRoutes = require("./src/api/index/index.routes");
+const indexRoutes = require("./api/index/index.routes");
 
-const characterRoutes = require("./src/api/characters/characters.routes");
+const characterRoutes = require("./api/characters/characters.routes");
 
-db.connectDB();
+db.connectDb();
 
 const server = express();
 const PORT = 3000;
